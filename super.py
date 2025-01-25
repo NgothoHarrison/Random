@@ -16,6 +16,10 @@ class Circle(Shape):
         # self.filled = filled
         self.radius = radius
 
+    def describe(self): 
+        super().describe() # this extends the describe function of the duper class
+        print(f"It is a circle with an area of {3.14 * self.radius * self.radius} cm^2")
+
 class Square(Shape):
     def __init__(self, color, is_filled, width):
         super().__init__( color, is_filled)
@@ -37,3 +41,4 @@ print(f"{square.width} cm")
 
 circle.describe()
 square.describe()
+
