@@ -2,6 +2,7 @@
 #  An abstract class is a class that cannot be instantiated on its own and is designed to be
 #  inherited by other classes.
 # thus, abstract classes are used to define a blueprint for other classes.
+# basically a blueprint
 
 from abc import ABC, abstractmethod
 
