@@ -1,1 +1,1 @@
-Keep the mind engaged and refreshing knowledge
+Keep the mind engaged and refreshing knowledge of the basics
